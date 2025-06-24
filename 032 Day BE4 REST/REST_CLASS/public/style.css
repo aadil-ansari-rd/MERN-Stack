@@ -1,0 +1,20 @@
+.post-container{
+    background-color: pink;
+    padding: 20px;
+}
+.post{
+    background-color: whitesmoke;
+    color: maroon;
+    margin: 20px;
+    border : 2px solid red;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.mainForm{
+    border: 2px solid red; 
+    padding: 40px; 
+    background-color: pink;
+    color :maroon
+
+}

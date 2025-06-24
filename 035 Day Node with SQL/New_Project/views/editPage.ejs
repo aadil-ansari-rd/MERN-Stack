@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Page</title>
+</head>
+<body>
+    <form action="/user/<%= data.id %>?_method=PATCH" method="post" border="2px solid black" >
+        <h1>Edit Username</h1>
+        <label for="id">ID : </label>
+        <input id="id" type="text"  value="<%= data.id %>" disabled><br><br>
+        <label for="email">Email : </label>
+        <input id="email" type="text"  value="<%= data.email %>" disabled><br><br>
+        <label for="username">Username : </label>
+        <input id="username" type="text" name="username" value="<%= data.username %>"  ><br><br>
+        <label for="password">Password : </label>
+        <input id="password" name="password" type="text"  ><br><br>
+        <%= data.password %>
+        <button type="submit">Update</button>
+        
+    </form>
+</body>
+</html>

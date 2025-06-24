@@ -1,0 +1,31 @@
+.Card{
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 250px;
+    margin : 10px
+}
+
+.cardTitle{
+    font-weight: bold;
+    text-align: center;
+    margin: 20px;
+}
+
+.cardDes{
+    text-align: center;
+    margin: 20px;
+    
+}
+
+.price{
+    text-align: center;
+    background-color: goldenrod;
+    border-radius: 0 0 10px 10px;
+    height: 30px;
+}
+.p1{
+    text-decoration: line-through;
+}
+.p2{
+    font-weight: bold;
+}

@@ -1,0 +1,10 @@
+.boxInfo{
+    text-align: center;
+    
+}
+
+.card-info{
+    display:  flex;
+    justify-content: center;
+    text-align: start;
+}

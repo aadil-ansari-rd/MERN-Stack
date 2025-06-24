@@ -1,0 +1,45 @@
+.outer{
+    border: 5px solid blue;
+    display: flex;
+    height: 400px;
+    width: 400px;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.inner{
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+    border-radius: 5px;
+    font-size: 50px;
+    text-align: center;
+    background-color: grey;
+    align-content: flex-start;
+}
+/* Take the container height & width as(50px, 900px) & child height & width as
+(50px, 80px). */
+/* - Use font-size as 24px */
+.out{
+    height:50px ;
+    width: 900px;
+    background-color: pink;
+    display: flex;
+    border: 2px solid lightgreen;
+    border-radius: 5px;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: center;
+}
+
+.in{
+    height: 50px;
+    width: 80px;
+    font-size: 24px;
+    text-align: center;
+    line-height: 50px;
+    margin-left: 5px;
+}

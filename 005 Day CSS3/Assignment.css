@@ -1,0 +1,24 @@
+#d1{
+    height: 150px;
+    width: 300px;
+    background-color: grey;
+    border: 5px dotted black;
+    margin-top: 20px;
+    margin-right: 1em;
+    margin-bottom: 40px;
+    margin-left: 2em;
+    padding: 1em;
+}
+
+.d2{
+    height: 100px;
+    width : 100px;
+    border: 2px solid black;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: pink;
+}
+
+li{
+    display: inline;
+}

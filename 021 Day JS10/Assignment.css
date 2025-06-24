@@ -1,0 +1,21 @@
+body {
+    text-align: center;
+
+}
+
+div {
+    height: 100px;
+    width: 500px;
+    margin: auto;
+    margin-top: 30px;
+    border: 1px solid black;
+}
+
+.q1 {
+    height: 100px;
+    width: 500px;
+    margin: auto;
+    margin-top: 30px;
+    border: 1px solid black;
+    background-color: pink;
+}
